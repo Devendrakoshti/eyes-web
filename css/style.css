@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    background: yellow;
+    border-radius: 50%;
+    margin: 40px auto;
+}
+
+.main .up {
+    height: 200px;
+    /* border: solid; */
+    display: flex;
+    padding: 120px 0 0 100px;
+    position: relative;
+}
+
+.main .up .e1 {
+    height: 2px;
+    width: 150px;
+    border: solid;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 140px;
+    left: 110px;
+    animation: manish 1s infinite;
+}
+
+.main .up .l1 {
+    top: 140px;
+    left: 250px;
+    transform: rotate(-45deg);
+}
+
+.main .dn {
+    display: flex;
+    padding: 0 0 0 100px;
+}
+
+.main .dn .y1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: solid;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    animation: hem 2s infinite;
+    background-color: white;
+}
+
+.main .dn .y2 {
+    margin-left: 70px;
+}
+
+.main .dn .y1 .b1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid;
+    background: black;
+}
+
+.main .dn .y1 .p1 {
+    height: 120px;
+    width: 120px;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: dev 5s infinite;
+}
+
+.main .smi {
+    height: 50px;
+    width: 200px;
+    border: solid;
+    margin: 40px auto;
+    border-radius: 50%;
+    background-color: white;
+    animation: monu 2s infinite;
+}

@@ -1,0 +1,35 @@
+@keyframes dev {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -200%;
+    }
+}
+
+@keyframes hem {
+    from {
+        justify-content: right;
+    }
+    to {
+        justify-content: left;
+    }
+}
+
+@keyframes manish {
+    0% {
+        top: 140px;
+    }
+    100% {
+        top: 120px;
+    }
+}
+
+@keyframes monu {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 2px;
+    }
+}
